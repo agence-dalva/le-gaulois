@@ -1,26 +1,101 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-cream: #f7f5ef;
+  --color-cream-soft: #efece3;
+  --color-ink: #111111;
+  --color-ink-soft: #2b2b2b;
+  --color-mist: #8a8a85;
+  --color-line: #d9d6cc;
+  --color-olive: #bcbf5d;
+  --color-olive-deep: #9ea151;
+  --color-olive-soft: #d9dba8;
+
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+
+  --shadow-premium: 0 30px 80px -20px rgb(0 0 0 / 0.35);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.font-display {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.font-display-italic {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+::selection {
+  background: var(--color-olive);
+  color: var(--color-ink);
+}
+
+@keyframes slow-zoom {
+  0% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hero-kenburns {
+  animation: slow-zoom 8s ease-out forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Premium underline for nav links */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background: currentColor;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.nav-link:hover::after,
+.nav-link[data-active="true"]::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+/* Hide scrollbar on horizontal carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

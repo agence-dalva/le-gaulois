@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "restaurant": "Le Restaurant",
+    "menu": "Carte & Menus",
+    "contact": "Contact",
+    "reserve": "Réserver"
+  },
+  "hero": {
+    "eyebrow": "Restaurant gastronomique — Bartenheim",
+    "title": "Le Gaulois",
+    "subtitle": "La table de Jérôme Paquin",
+    "tagline": "Une cuisine qui éveille les sens, entre tradition et inspiration",
+    "cta_reserve": "Réserver une table",
+    "cta_menu": "Découvrir la carte"
+  },
+  "intro": {
+    "eyebrow": "L'Expérience",
+    "title": "Sortir des sentiers battus",
+    "body": "Du souvenir d'enfance aux subtils accords élaborés par le Chef gérant Jérôme Paquin, autodidacte, laissez-vous porter par des saveurs enivrantes. La carte évolue au fil du temps, travaillant des produits bruts et de saisons, frais et notamment locaux.",
+    "distinction_1": "Gault & Millau — 2 toques, 14.5/20",
+    "distinction_2": "Maître Cuisinier de France 2024"
+  },
+  "chef": {
+    "eyebrow": "Le Chef",
+    "title": "Jérôme Paquin",
+    "body": "Autodidacte passionné, Jérôme Paquin entreprend sans relâche la rénovation du lieu et la recherche de l'innovation. Il se distingue par sa quête de l'excellence gastronomique, proposant une cuisine originale et créative avec des associations culinaires inhabituelles, dans une atmosphère particulièrement soignée."
+  },
+  "menu": {
+    "eyebrow": "Carte & Menus",
+    "title": "La Carte",
+    "subtitle": "Prix net, service compris",
+    "download_pdf": "Télécharger le menu (PDF)",
+    "formulas_title": "Nos Menus",
+    "formulas": [
+      {
+        "name": "Menu « à faire »",
+        "note": "Du mardi au vendredi — repas du midi (hors jours fériés)",
+        "options": [
+          { "label": "En deux services", "price": "28 €" },
+          { "label": "En trois services", "price": "35 €" },
+          { "label": "À emporter (3 services)", "price": "25 €" }
+        ]
+      },
+      {
+        "name": "Menu Petit Gourmet",
+        "note": "Jusqu'à 11 ans — un plat à la carte & une boule de glace maison",
+        "options": [{ "label": "Menu enfant", "price": "18 €" }]
+      },
+      {
+        "name": "Menu Découverte Végétal",
+        "note": "Menu en 4 services sans viande ni poisson, sélectionné par le Chef",
+        "options": [{ "label": "4 services", "price": "62 €" }]
+      },
+      {
+        "name": "Menu Inspiration",
+        "note": "4 services sélectionnés par le Chef, servi pour l'ensemble de la table. Associable au menu découverte végétal",
+        "options": [{ "label": "4 services", "price": "78 €" }]
+      },
+      {
+        "name": "Menu Dégustation",
+        "note": "8 services pour l'ensemble de la table — entre terre et mer, d'ici & d'ailleurs. Menu soumis à des restrictions d'horaires",
+        "options": [{ "label": "8 services", "price": "102 €" }]
+      }
+    ],
+    "starters": {
+      "title": "Pour commencer",
+      "items": [
+        {
+          "name": "Veau",
+          "description": "Façon vitello tonnato mais à la sauce césar, déclinaison oignons rouges, caviar maison Kaviari",
+          "price": "29 €"
+        },
+        {
+          "name": "Mon Souvenir d'enfance",
+          "description": "Coquillettes jambon comme un risotto, sublimé par un œuf fermier plein air cuit à 65°C, émulsion oignons rôtis et couenne, truffes",
+          "price": "25 €"
+        },
+        {
+          "name": "Foie Gras de canard de la ferme du Puntoun",
+          "description": "Mi-cuit, condiments choucroute et amer bière, tuile de drêche",
+          "price": "31 €"
+        },
+        {
+          "name": "Le Maïs et le champignon",
+          "description": "Travail autour du maïs en texture associée aux champignons sauvages",
+          "price": "25 €"
+        }
+      ]
+    },
+    "mains": {
+      "title": "Pour continuer",
+      "items": [
+        {
+          "name": "Cabillaud Skrei",
+          "description": "En basse température confit à l'huile d'olive, endive glacée au miel, agrumes et sauce beurre blanc",
+          "price": "39 €"
+        },
+        {
+          "name": "Noix de Saint-Jacques",
+          "description": "Rôtie à l'unilatérale, déclinaison de racine de persil, noisettes, jus réduit de corail",
+          "price": "49 €"
+        },
+        {
+          "name": "Bœuf / Langoustine",
+          "description": "La noix d'entrecôte en basse température, langoustine marinée à crue, pomme de terre comme un rösti, caviar et jus végétal",
+          "price": "51 €"
+        },
+        {
+          "name": "Agneau",
+          "description": "L'épaule confite tout doucement, asperges vertes, textures de petit pois, jus comme un tajine",
+          "price": "46 €"
+        }
+      ]
+    },
+    "desserts": {
+      "title": "Pour finir",
+      "items": [
+        {
+          "name": "Verger-potager",
+          "description": "Comme une tarte au citron meringuée, tout sauf l'apparence et zestes d'estragons",
+          "price": "15 €"
+        },
+        {
+          "name": "Le champignon",
+          "description": "Promenade des sous-bois — alliance étonnante du champignon, de la myrtille et de la noisette. Notes boisées et végétales peu sucrées",
+          "price": "15 €"
+        },
+        {
+          "name": "Comme un Irish Coffee",
+          "description": "Ganache et mousse café, une touche de whisky et la gourmandise d'une glace à la truffe",
+          "price": "15 €"
+        },
+        {
+          "name": "Fromages de Maître Antony à Vieux-Ferrette",
+          "description": "Chariot de fromages — assiette de 3 fromages (supplément dans le menu)",
+          "price": "17,50 €"
+        }
+      ]
+    },
+    "allergies_note": "Merci de nous informer de toutes contraintes alimentaires. Nous ne pouvons pas nous adapter aux régimes sans lactose, merci de votre compréhension."
+  },
+  "reserveCta": {
+    "eyebrow": "Réservation",
+    "title": "Une table vous attend",
+    "body": "Réservation recommandée par téléphone ou par email. Nous serons ravis de vous accueillir."
+  },
+  "contact": {
+    "eyebrow": "Nous trouver",
+    "title": "Contact & Réservation",
+    "address_title": "Adresse",
+    "address": "8 Rue du Général de Gaulle\n68870 Bartenheim",
+    "phone_title": "Téléphone",
+    "phone": "03 89 70 71 84",
+    "email_title": "Email",
+    "email": "restaurantlegaulois68@gmail.com",
+    "hours_title": "Horaires",
+    "hours_lunch": "Déjeuner : 12h00 — 14h15",
+    "hours_dinner": "Dîner : 19h00 — 21h30",
+    "hours_closed": "Fermé : jeudi soir, samedi midi, dimanche soir et toute la journée du lundi",
+    "cta_call": "Appeler",
+    "cta_email": "Écrire"
+  },
+  "footer": {
+    "tagline": "Restaurant gastronomique depuis 1946",
+    "rights": "Tous droits réservés"
+  },
+  "language": {
+    "switch": "Langue",
+    "fr": "Français",
+    "en": "English"
+  }
+}

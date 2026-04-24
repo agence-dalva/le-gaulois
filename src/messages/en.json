@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Home",
+    "restaurant": "The Restaurant",
+    "menu": "Menu",
+    "contact": "Contact",
+    "reserve": "Book"
+  },
+  "hero": {
+    "eyebrow": "Fine dining — Bartenheim",
+    "title": "Le Gaulois",
+    "subtitle": "Chef Jérôme Paquin's table",
+    "tagline": "A cuisine that awakens the senses — where tradition meets inspiration",
+    "cta_reserve": "Book a table",
+    "cta_menu": "See the menu"
+  },
+  "intro": {
+    "eyebrow": "The Experience",
+    "title": "Off the beaten path",
+    "body": "From childhood memories to the subtle harmonies crafted by self-taught Head Chef Jérôme Paquin, let yourself be carried away by intoxicating flavours. The menu evolves over time, working with raw, seasonal, fresh and mostly local products.",
+    "distinction_1": "Gault & Millau — 2 toques, 14.5/20",
+    "distinction_2": "Maître Cuisinier de France 2024"
+  },
+  "chef": {
+    "eyebrow": "The Chef",
+    "title": "Jérôme Paquin",
+    "body": "A self-taught, passionate chef, Jérôme Paquin tirelessly renovates the space and seeks out innovation. He stands out for his pursuit of gastronomic excellence, offering original and creative cuisine with unusual culinary pairings, in a carefully crafted atmosphere."
+  },
+  "menu": {
+    "eyebrow": "Menu & Tasting",
+    "title": "The Menu",
+    "subtitle": "Net price, service included",
+    "download_pdf": "Download menu (PDF)",
+    "formulas_title": "Our Set Menus",
+    "formulas": [
+      {
+        "name": "Menu « à faire »",
+        "note": "Tuesday to Friday — lunch only (excluding public holidays)",
+        "options": [
+          { "label": "Two courses", "price": "€28" },
+          { "label": "Three courses", "price": "€35" },
+          { "label": "Takeaway (3 courses)", "price": "€25" }
+        ]
+      },
+      {
+        "name": "Little Gourmet Menu",
+        "note": "Up to 11 years old — a dish of their choice & a scoop of homemade ice cream",
+        "options": [{ "label": "Children's menu", "price": "€18" }]
+      },
+      {
+        "name": "Plant-based Discovery Menu",
+        "note": "4-course menu without meat or fish, selected by the Chef",
+        "options": [{ "label": "4 courses", "price": "€62" }]
+      },
+      {
+        "name": "Inspiration Menu",
+        "note": "4 courses selected by the Chef, served for the whole table. Can be combined with the plant-based menu",
+        "options": [{ "label": "4 courses", "price": "€78" }]
+      },
+      {
+        "name": "Tasting Menu",
+        "note": "8 courses for the whole table — between land and sea, from here and elsewhere. Subject to time restrictions",
+        "options": [{ "label": "8 courses", "price": "€102" }]
+      }
+    ],
+    "starters": {
+      "title": "To begin",
+      "items": [
+        {
+          "name": "Veal",
+          "description": "Vitello tonnato-style with caesar sauce, red onion variations, house-made Kaviari caviar",
+          "price": "€29"
+        },
+        {
+          "name": "A Childhood Memory",
+          "description": "Ham pasta shells risotto-style, elevated by a 65°C free-range egg, roasted onion and pork rind emulsion, truffles",
+          "price": "€25"
+        },
+        {
+          "name": "Duck foie gras from Ferme du Puntoun",
+          "description": "Semi-cooked, sauerkraut and bitter beer condiments, brewer's grain tuile",
+          "price": "€31"
+        },
+        {
+          "name": "Corn and Mushroom",
+          "description": "A study of corn in texture, paired with wild mushrooms",
+          "price": "€25"
+        }
+      ]
+    },
+    "mains": {
+      "title": "To continue",
+      "items": [
+        {
+          "name": "Skrei Cod",
+          "description": "Slow-cooked confit in olive oil, honey-glazed endive, citrus and beurre blanc sauce",
+          "price": "€39"
+        },
+        {
+          "name": "Scallops",
+          "description": "Seared on one side, parsley root variations, hazelnuts, reduced coral jus",
+          "price": "€49"
+        },
+        {
+          "name": "Beef / Langoustine",
+          "description": "Slow-cooked ribeye, raw-marinated langoustine, rösti-style potato, caviar and plant-based jus",
+          "price": "€51"
+        },
+        {
+          "name": "Lamb",
+          "description": "Slow-cooked shoulder, green asparagus, pea textures, tagine-style jus",
+          "price": "€46"
+        }
+      ]
+    },
+    "desserts": {
+      "title": "To finish",
+      "items": [
+        {
+          "name": "Orchard-garden",
+          "description": "A lemon meringue tart in disguise — everything but the appearance, with tarragon zest",
+          "price": "€15"
+        },
+        {
+          "name": "The Mushroom",
+          "description": "A walk through the undergrowth — a surprising pairing of mushroom, blueberry and hazelnut. Woody, green notes, lightly sweet",
+          "price": "€15"
+        },
+        {
+          "name": "Like an Irish Coffee",
+          "description": "Coffee ganache and mousse, a touch of whisky and the indulgence of truffle ice cream",
+          "price": "€15"
+        },
+        {
+          "name": "Cheeses from Maître Antony in Vieux-Ferrette",
+          "description": "Cheese trolley — plate of 3 cheeses (supplement in set menus)",
+          "price": "€17.50"
+        }
+      ]
+    },
+    "allergies_note": "Please let us know of any dietary restrictions. We are unable to accommodate lactose-free diets — thank you for your understanding."
+  },
+  "reserveCta": {
+    "eyebrow": "Reservations",
+    "title": "A table awaits you",
+    "body": "Booking recommended by phone or email. We look forward to welcoming you."
+  },
+  "contact": {
+    "eyebrow": "Find us",
+    "title": "Contact & Booking",
+    "address_title": "Address",
+    "address": "8 Rue du Général de Gaulle\n68870 Bartenheim",
+    "phone_title": "Phone",
+    "phone": "+33 3 89 70 71 84",
+    "email_title": "Email",
+    "email": "restaurantlegaulois68@gmail.com",
+    "hours_title": "Opening hours",
+    "hours_lunch": "Lunch: 12:00 — 14:15",
+    "hours_dinner": "Dinner: 19:00 — 21:30",
+    "hours_closed": "Closed: Thursday evening, Saturday lunch, Sunday evening, and all day Monday",
+    "cta_call": "Call",
+    "cta_email": "Email"
+  },
+  "footer": {
+    "tagline": "Fine dining since 1946",
+    "rights": "All rights reserved"
+  },
+  "language": {
+    "switch": "Language",
+    "fr": "Français",
+    "en": "English"
+  }
+}
